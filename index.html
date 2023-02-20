@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Mark Furman Portfolio</title>
+  </head>
+  <body class="dark" id="top">
+    <header class="header center" id="navbar">
+      <h3>
+        <a href="#" class="link"
+          >MF</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-sun"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <div class="about-info">
+          <img src="assets/imgs/selfie.jpg" alt="me" class="selfie" />
+          <!-- <h1>Hi, I am <span class="about__name">Raj Shekhar.</span></h1>
+        <h2 class="about__role">A Front end Developer.</h2> -->
+          <p class="about__desc">
+            Hi my name is Mark Furman. I worked in several companies as
+            simulator developer for self driving cars. Currently making a switch
+            to the facinating world of game development, I released a few small
+            mobile games and currently working on more.
+          </p>
+        </div>
+
+        <div class="about__contact center">
+          <a href="https://example.com">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/rajshekhar26"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://linkedin.com/in/rajshekhar26"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Project 1</h3>
+            <p class="project__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Project 2</h3>
+            <div class="test">
+              <p class="project__description2">
+                Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+                sapiente debitis labore sed ipsam Mollitia repellat illum quod
+                unde beatae Quis
+              </p>
+            </div>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.wannaplay.wordshop"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i class="fab fa-google-play"></i>
+            </a>
+            <a
+            href="https://apps.apple.com/us/app/word-bowl/id1591003316"
+            aria-label="source code"
+            class="link link--icon"
+          >
+            <i class="fab fa-apple"></i>
+          </a>
+          </div>
+
+          <div class="project">
+            <h3>Stack the cups!</h3>
+            <div class="box">
+              <img
+                class="project__picture"
+                src="/assets/imgs/project1.jpg"
+                alt="Flying Kites"
+              />
+              <div class="text">
+                <p>Hyper casual cup stacking game</p>
+              </div>
+            </div>
+            <!-- <div class="containerBox">
+            <img class="project__picture" alt="project 1" src="assets/imgs/project1.jpg" />
+            <div class="text-box">
+          
+            </div>
+          </div> -->
+            <a
+              href="https://play.google.com/store/apps/details?id=com.defaultcompany.stackthecups&hl=en&gl=US"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i class="fab fa-google-play"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section id="experince" class="section projects">
+        <h2 class="section__title">Experience</h2>
+
+        <div class="experince__list">
+          <div class="project experience">
+            <div class="experience__left">
+              <h5 class="experience__title">
+                Innopolis University, <br />OZON
+              </h5>
+              <div class="experience__date">2020-2022</div>
+              <ul class="project__stack__vertical">
+                <li class="project__stack-item">Unity</li>
+                <li class="project__stack-item">C#</li>
+                <li class="project__stack-item">OpenScenario</li>
+                <li class="project__stack-item">Python</li>
+              </ul>
+            </div>
+            <div class="experience__right">
+              <p>
+                Worked in a team dedicated to developing a simulator for
+                self-driving needs. Mainly spent my time with traffic simulation
+                and also developed tools for scenario creation and support for
+                OpenScenario format.
+              </p>
+            </div>
+          </div>
+          <div class="project experience">
+            <div class="experience__left">
+              <h5 class="experience__title">Ralient</h5>
+              <div class="experience__date">2018-2019</div>
+              <ul class="project__stack__vertical">
+                <li class="project__stack-item">UE4</li>
+                <li class="project__stack-item">Carla</li>
+                <li class="project__stack-item">Opengl</li>
+                <li class="project__stack-item">C++</li>
+              </ul>
+            </div>
+            <div class="experience__right">
+              <p>
+                Ralient was a small self-driving startup. I was responsible for
+                developing a simulator for testing motion and planning
+                algorithms and NN data collection and training. I used an
+                open-source Carla simulator based on Unreal Engine and tweaked
+                it to our needs. I also created a scenario creation framework. I
+                developed in-house visualization tools using opengl, to help
+                visualize and debug self-driving algorithms
+              </p>
+            </div>
+          </div>
+          <div class="project experience">
+            <div class="experience__left">
+              <h5 class="experience__title">BUMP</h5>
+              <div class="experience__date">2017-2018</div>
+              <ul class="project__stack__vertical">
+                <li class="project__stack-item">Unity</li>
+                <li class="project__stack-item">C#</li>
+              </ul>
+            </div>
+            <div class="experience__right">
+              <p>
+                BUMP is a small startup located in Antwerp Belgium. I did my
+                internship there and was hired afterwards. The idea of the
+                project was to develop prototypes off hi tech escape rooms we
+                used leap motion, ar, projection mapping and weight sensors to
+                create unique experience. As an only developer in the team I was
+                responsible for figuring out API for new technologies and coding
+                prototypes from ground up.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">SCSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">TypeScript</li>
+          <li class="skills__list-item btn btn--plain">React</li>
+          <li class="skills__list-item btn btn--plain">Redux</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">Material UI</li>
+          <li class="skills__list-item btn btn--plain">Jest</li>
+          <li class="skills__list-item btn btn--plain">Enzyme</li>
+          <li class="skills__list-item btn btn--plain">CI/CD</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:rjshekhar.official@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/rajshekhar26/cleanfolio-minimal"
+        class="link footer__link"
+      >
+        Created By Raj Shekhar
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
