@@ -20,18 +20,16 @@
   <body class="dark" id="top">
     <header class="header center" id="navbar">
       <h3>
-        <a href="#" class="link"
-          >MF</a
-        >
+        <a href="#" class="link">MF</a>
       </h3>
 
       <nav class="nav center">
         <ul class="nav__list center">
           <li class="nav__list-item">
-            <a class="link link--nav" href="#projects">Projects</a>
+            <a class="link link--nav" href="#projects">projects</a>
           </li>
           <li class="nav__list-item">
-            <a class="link link--nav" href="#experience">Skills</a>
+            <a class="link link--nav" href="#experience">experience</a>
           </li>
         </ul>
 
@@ -57,28 +55,25 @@
           <!-- <h1>Hi, I am <span class="about__name">Raj Shekhar.</span></h1>
         <h2 class="about__role">A Front end Developer.</h2> -->
           <p class="about__desc">
-            Hi my name is Mark Furman. I worked in several companies as
-            simulator developer for self driving cars. Currently making a switch
-            to the facinating world of game development, I released a few small
-            mobile games and currently working on more.
+            Hello, My name is Mark Furman. <br />
+            I loved video games as a long as I can remember and wanted to be
+            part of developing one since school. My professional carrier
+            deviated slightly from my goal and I worked as a simulator developer
+            for self-driving cars for a few years. Although this was great
+            experience my love for game dev never faded and now I am more
+            focused on pursuing this passion.
           </p>
         </div>
 
         <div class="about__contact center">
-          <a download="assets/MarkFurmanCV.pdf">
+          <a href="assets/MarkFurmanCV.pdf" download>
             <span class="btn btn--outline">Resume</span>
           </a>
 
-          <a
-            href="https://github.com/rajshekhar26"
-            aria-label="github"
-            class="link link--icon"
-          >
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
+          
 
           <a
-            href="https://linkedin.com/in/rajshekhar26"
+            href="https://www.linkedin.com/in/mark-furman-1a62754b/"
             aria-label="linkedin"
             class="link link--icon"
           >
@@ -93,57 +88,35 @@
 
         <div class="projects__grid">
           <div class="project">
-            <h3>Project 1</h3>
-            <p class="project__description">
-              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
-              sapiente debitis labore sed ipsam Mollitia repellat illum quod
-              unde beatae Quis
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">SASS</li>
-              <li class="project__stack-item">TypeScript</li>
-              <li class="project__stack-item">React</li>
-            </ul>
-
-            <a
-              href="https://github.com"
-              aria-label="source code"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-              href="https://example.com"
-              aria-label="live preview"
-              class="link link--icon"
-            >
-              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
-            </a>
-          </div>
-
-          <div class="project">
-            <h3>Project 2</h3>
-            <div class="test">
-              <p class="project__description2">
-                Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
-                sapiente debitis labore sed ipsam Mollitia repellat illum quod
-                unde beatae Quis
-              </p>
+            <h3>Word Bowl</h3>
+            <div class="box">
+              <img
+                class="project__picture"
+                src="/assets/imgs/project2.jpg"
+                alt="Flying Kites"
+              />
+              <div class="text">
+                <p>Leraning words game. Made for publisher</p>
+              </div>
             </div>
+            <div class="project__links">
             <a
               href="https://play.google.com/store/apps/details?id=com.wannaplay.wordshop"
               aria-label="source code"
+              target="_blank"
               class="link link--icon"
             >
               <i class="fab fa-google-play"></i>
             </a>
             <a
-            href="https://apps.apple.com/us/app/word-bowl/id1591003316"
-            aria-label="source code"
-            class="link link--icon"
-          >
-            <i class="fab fa-apple"></i>
-          </a>
+              href="https://apps.apple.com/us/app/word-bowl/id1591003316"
+              aria-label="source code"
+              target="_blank"
+              class="link link--icon"
+            >
+              <i class="fab fa-apple"></i>
+            </a>
+          </div>
           </div>
 
           <div class="project">
@@ -167,20 +140,48 @@
             <a
               href="https://play.google.com/store/apps/details?id=com.defaultcompany.stackthecups&hl=en&gl=US"
               aria-label="source code"
+              target="_blank"
               class="link link--icon"
             >
               <i class="fab fa-google-play"></i>
+            </a>
+          </div>
+          <div class="project project__wide">
+            <h3>Geometry shader fun</h3>
+            <div class="box">
+              <img
+                class="project__picture"
+                src="/assets/imgs/project3.gif"
+                alt="Flying Kites"
+              />
+              <div class="text">
+                <p>
+                  Geometry shader fun. HLSL and geometry shaders. <br />
+                  Everething is done inside the geometry shader stage. The goal
+                  was to recreate "greeble" modifier for 3D Max. Which helps to
+                  generate random detail for spaceship models, cityscapes, Death
+                  Stars and so on.
+                </p>
+              </div>
+            </div>
+            <a
+              href="https://www.youtube.com/watch?v=HqzSYlgcDJc"
+              target="_blank"
+              aria-label="demo"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-youtube"></i>
             </a>
           </div>
         </div>
       </section>
 
       <!-- Experience -->
-      <section id="experince" class="section projects">
+      <section id="experience" class="section projects">
         <h2 class="section__title">Experience</h2>
 
         <div class="experince__list">
-          <div class="project experience">
+          <div class="experience">
             <div class="experience__left">
               <h5 class="experience__title">
                 Innopolis University, <br />OZON
@@ -195,14 +196,18 @@
             </div>
             <div class="experience__right">
               <p>
-                Worked in a team dedicated to developing a simulator for
-                self-driving needs. Mainly spent my time with traffic simulation
-                and also developed tools for scenario creation and support for
-                OpenScenario format.
+                OZON is one of the largest e-commerce in Russia. 
+                I worked in a large team where we developed self-driving for shipping goods.
+                As a membeor of simulation team I was responsible for 
+                <ul class="respList">
+                  <li>Traffic simulation including pedestrians.</li>
+                  <li>Developed tools for QA team to create and test scenarios </li>
+                  <li>Implemented support for OpenDrive scenario format. </li>
+                </ul>
               </p>
             </div>
           </div>
-          <div class="project experience">
+          <div class="experience">
             <div class="experience__left">
               <h5 class="experience__title">Ralient</h5>
               <div class="experience__date">2018-2019</div>
@@ -215,17 +220,17 @@
             </div>
             <div class="experience__right">
               <p>
-                Ralient was a small self-driving startup. I was responsible for
-                developing a simulator for testing motion and planning
-                algorithms and NN data collection and training. I used an
-                open-source Carla simulator based on Unreal Engine and tweaked
-                it to our needs. I also created a scenario creation framework. I
-                developed in-house visualization tools using opengl, to help
-                visualize and debug self-driving algorithms
+                Ralient was a small self-driving startup. My main achivments were
+                <ul class="respList">
+                  <li>Used open source Carla simulator and reconfigure it to our needs.</li>
+                  <li>Created scenario runner to test motion planning and control algorithms.</li>
+                  <li>Developed in-house visualization tools using opengl, to help
+                    visualize and debug self-driving algorithms. </li>
+                </ul>
               </p>
             </div>
           </div>
-          <div class="project experience">
+          <div class="experience">
             <div class="experience__left">
               <h5 class="experience__title">BUMP</h5>
               <div class="experience__date">2017-2018</div>
@@ -278,12 +283,6 @@
     </main>
 
     <footer class="footer">
-      <a
-        href="https://github.com/rajshekhar26/cleanfolio-minimal"
-        class="link footer__link"
-      >
-        Created By Raj Shekhar
-      </a>
     </footer>
 
     <div class="scroll-container">
